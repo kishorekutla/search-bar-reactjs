@@ -1,0 +1,50 @@
+.data{
+    background-color: azure;
+    width:270px;
+    overflow: hidden;
+    overflow-y: auto;
+    align-self: center;
+}
+.data::-webkit-scrollbar{
+    display: none;
+}
+
+.searchInput-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input{
+  
+  border: 1px solid black;
+  border-right: 0px;
+}
+input:focus {
+  border-right: 0px;
+    background-color:rgb(99, 92, 92);
+  
+  }
+
+  .searchIcon {
+    height: 29px;
+    width: 20px;
+    background-color: white;
+     border: 1px solid black;
+     border-left: 0px;
+     display: grid;
+    place-items: center;
+  }
+  input{
+    height: 27px;
+    width: 300px;
+    color:beige
+  }
+.inputcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p:hover{
+ background-color: brown;
+}
